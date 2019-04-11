@@ -1,0 +1,100 @@
+@import 'variables.scss';
+@import 'partials/navbar.scss';
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+body {
+    background-color: $mainBg;
+    font-family: 'Cinzel', serif;
+
+}
+div.bold {
+    font-weight: bold;
+}
+span {
+   text-align: center;
+   clear: both;
+   font-size: 44px;
+   font-family: 'Cinzel', serif;
+  
+}
+// .col-lg-3 div {
+//     text-align: center;
+//     margin: 0 auto;
+// }
+.row div {
+    text-align: center;
+    background-color: white;
+    // border: 1px solid black;
+}
+div.banner2 {
+    // text-align: center;
+    background-color: #93c4b4; 
+    line-height: 0.9;
+    padding-top: 8px;
+}
+p.banner2 {
+    font-size: 12px;
+}
+a {
+    font-size: 14px;
+}
+.HM p {
+    margin-top: 9px;
+    line-height: 0.6;
+
+  
+}
+.HR p {
+    font-style: italic;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+p.logo {
+    font-size: 16px;
+    line-height: 0.6;
+}
+
+p.links {
+    font-size: 10px;
+    text-align: left;
+    justify-content: center;
+}
+.head div {
+    // border: 1px solid black;
+    font-size: 9px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+div.newStory {
+    text-align: center;
+    margin: 10px 20px 0 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    border-bottom: 1px solid rgba(199, 201, 204, 0.3);
+}
+p.br {
+    font-size: 14px;
+}
+div.middle {
+    margin: 10px 20px 0 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 26px;
+}
+div.leftCol {
+    border-right: 1px solid rgba(199, 201, 204, 0.3);
+}
+div.rightCol {
+    border-left: 1px solid rgba(199, 201, 204, 0.3);
+}
+div.footer {
+    text-align: center;
+    margin: 0 auto;
+    border-top: 1px solid rgba(199, 201, 204, 0.3)
+}
